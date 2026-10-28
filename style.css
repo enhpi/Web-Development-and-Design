@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+header {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    /* hoveer color change */
+    transition: color 0.3s ease;
+}
+
+    /* Nav Link Hover Interaction (Exercise 4) */
+    nav a:hover {
+        color: #3b82f6;
+    }
+
+/* --- 3. Main Container & Cards Layout --- */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #dddddd;
+    /* Smooth lift transition (Exercise 4) */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    /* Card Hover Interaction (Exercise 4) */
+    .card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    }
+
+.profile-img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* --- 4. Table Styling (Exercise 3) --- */
+table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+th {
+    background-color: #e5e7eb;
+}
+
+/* --- 5. Button Styling & Hover Interaction (Exercise 4) --- */
+.btn {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Smooth button scaling transition (Exercise 4) */
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+    .btn:hover {
+        background-color: #1d4ed8;
+        transform: scale(1.05);
+    }
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #666666;
+}
